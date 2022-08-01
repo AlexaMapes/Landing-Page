@@ -1,3 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2-cards {
+    display: flex;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+}
+
 .header, .section-1, .footer {
     background-color: #1F2937;
 }
