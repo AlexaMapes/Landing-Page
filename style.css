@@ -179,6 +179,15 @@ a {
     font-weight: 900;
 }
 
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9FAF8;
+}
+
 .header, .section-1, .footer {
     background-color: #1F2937;
 }
