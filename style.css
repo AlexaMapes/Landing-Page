@@ -46,6 +46,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 75px;
 }
 
 .section-1-left {
@@ -80,10 +81,34 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 40px;
+    gap: 40px;
+    padding-bottom: 75px;
+}
+
+.section-2-title {
+    font-size: 36pt;
+    font-weight: 900;
+    columns: #1F2937;
 }
 
 .section-2-cards {
     display: flex;
+    gap: 100px;
+}
+
+.card {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-text {
+    text-align: center;
+    color: #1F2937;
 }
 
 .section-3 {
